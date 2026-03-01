@@ -1,0 +1,11 @@
+Customer retention has become a decisive factor in the competitiveness of modern online retail ecosystems. With increasing digital transactions and platform-based commerce, companies accumulate vast behavioral data including transaction histories, browsing sequences, and engagement metrics. Predicting customer churn—the probability that a customer discontinues engagement—directly impacts revenue forecasting, marketing efficiency, and long-term profitability.
+
+Technically, churn prediction is a supervised binary classification problem where historical behavioral features are mapped to a churn label. Traditional machine learning techniques such as logistic regression and ensemble methods rely on handcrafted features and statistical correlations. More recently, deep learning architectures have demonstrated superior ability to capture nonlinear behavioral dynamics. However, these models often operate as black boxes, limiting transparency and managerial interpretability.
+
+Current approaches address churn prediction primarily through three paradigms: statistical models, tree-based ensembles, and deep neural networks. Statistical models offer interpretability but struggle with complex feature interactions. Ensemble methods improve predictive power but remain partially opaque. Deep learning methods achieve high accuracy but lack reasoning transparency and rule-level explanations required for operational deployment.
+
+Despite advances, two critical limitations remain. First, most models optimize predictive accuracy without guaranteeing explainability aligned with business logic. Second, symbolic domain knowledge such as retention policies or loyalty thresholds is rarely integrated into learning frameworks.
+
+These limitations are significant because online retail decision-making requires regulatory transparency, trust, and actionable insights. Black-box decisions reduce executive confidence and may conflict with explainable AI requirements in data governance frameworks.
+
+To address these gaps, this paper proposes an explainable neuro-symbolic churn prediction framework that combines neural feature extraction with rule-based symbolic reasoning. The proposed model integrates predictive learning and logical inference within a unified architecture.
